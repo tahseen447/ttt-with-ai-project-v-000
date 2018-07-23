@@ -103,7 +103,7 @@ class Game
         token_2 = "X"
       end
       @player_1 = Players::Human.new(token)
-      @player2 = Players::Human.new(token_2)
+      @player_2 = Players::Human.new(token_2)
     end
 end
 end
