@@ -92,6 +92,7 @@ class Game
       end
       if input == "Human"
         @player_1 = Players::Human.new(token)
+        @player_2 = Players::Computer.new(token_2)
       end
     elsif players== "2"
       puts "Select token for Player 1"
